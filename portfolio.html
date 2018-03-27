@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>My First Website</title>
+
+  <!-- We need to bring in the bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- Linking CSS -->
+  <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+            <a class="navbar-brand" href="#">Yulin MAO</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./index.html">About</a></li>
+              <li class="active"><a href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+        <!--/.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <div class="col-md-8">
+            <div class="row">
+                <div class="page-header">
+                    <h1>Portfolio</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                  <a href="#" class="thumbnail">
+                    <img id="education" src="assets\images\education.jpg" width="240" height="135" alt="education" />
+                    <div id="label_1">Education</div>
+                  </a>
+                </div>
+                <div class="col-md-5">
+                  <a href="#" class="thumbnail">
+                    <img id="career" src="assets\images\career.jpg" width="240" height="135" alt="career" />
+                    <div id="label_2">Career</div>
+                  </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                  <a href="#" class="thumbnail">
+                    <img id="music" src="assets\images\music.jpg" width="240" height="135" alt="music" />
+                    <div id="label_3">Music</div>
+                  </a>
+                </div>
+                <div class="col-md-5">
+                  <a href="#" class="thumbnail">
+                    <img id="movie" src="assets\images\movie.png" width="240" height="135" alt="movie" />
+                    <div id="label_4">Movie</div>
+                  </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                  <a href="#" class="thumbnail">
+                    <img id="sports" src="assets\images\sports.jpg" width="240" height="135" alt="sports" />
+                    <div id="label_5">Sports</div>
+                  </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Contact with Me</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="gmail">
+                        <a href="https://www.gmail.com" target="_blank">
+                            <img src="http://clipart.info/images/ccovers/1499955332gmail-icon-logo-png.png" width="50" height="50" />
+                        </a>
+                    </div>
+        
+                    <div id="fb">
+                        <a href="https://www.facebook.com/maomaoyulin" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png" width="50" height="50" />
+                        </a>
+                    </div>
+        
+                    <div id="github">
+                        <a href="https://github.com/maomaoyulin" target="_blank">
+                            <img src="https://s3.amazonaws.com/digitalgov/_legacy-img/2013/11/github-octocat.jpg" width="50" height="50" />
+                        </a>
+                    </div>
+        
+                    <div id="linkedin">
+                        <a href="https://www.linkedin.com/in/yulin-mao-7061428b/" target="_blank">
+                            <img src="assets/images/linkedin.png" width="50" height="50" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

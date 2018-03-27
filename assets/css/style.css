@@ -6,10 +6,6 @@ body {
     background-color: blanchedalmond;
 }
 
-.navbar-brand {
-    color: white;
-}
-
 h1 {
     color: #428bca;
     margin-left: 15px;
@@ -19,6 +15,7 @@ h1 {
     background-color: blanchedalmond;
     padding-bottom: 30px;
     margin-left: -15px;
+    margin-bottom: 50px;
 }
 
 .col-md-4 {
@@ -61,4 +58,64 @@ h1 {
     float: left;
     margin-left: 10px;
     margin-top: 5px;
+}
+
+#exampleFormControlTextarea1 {
+    width: 80%;
+}
+
+form {
+    margin-left: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+#label_1 {
+    background-color: #428bca;
+    color: aliceblue;
+    position: absolute;
+    padding: 5px 80px 5px 76px;
+    margin-top: -40px;
+}
+
+#label_2 {
+    background-color: #428bca;
+    color: aliceblue;
+    position: absolute;
+    padding: 5px 84px 5px 92px;
+    margin-top: -40px;
+}
+
+#label_3 {
+    background-color: #428bca;
+    color: aliceblue;
+    position: absolute;
+    padding: 5px 88px 6px 94px;
+    margin-top: -40px;
+}
+
+#label_4 {
+    background-color: #428bca;
+    color: aliceblue;
+    position: absolute;
+    padding: 5px 88px 5px 93px;
+    margin-top: -40px;
+}
+
+#label_5 {
+    background-color: #428bca;
+    color: aliceblue;
+    position: absolute;
+    padding: 5px 86px 6px 92px;
+    margin-top: -40px;
+}
+
+.row {
+    margin-bottom: 20px;
 }
